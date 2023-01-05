@@ -1,0 +1,36 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    background-color: #292d33;
+    max-width: 350px;
+    max-height: 250px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 4px solid #2f3bad;
+}
+
+.monitor {
+    background-color: #2f3bad;
+    font-size: 50px;
+    border: 1px solid #2f3bad;
+    margin-bottom: 30px;
+    padding: 0 150px;
+}
+
+.buttons {
+    border: 2px solid #2f3bad;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.button {
+    border: none;
+    margin-right: 20px;
+    font-size: 50px;
+    background-color: #2f3bad;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
