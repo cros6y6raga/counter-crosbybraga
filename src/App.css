@@ -38,3 +38,16 @@
 .error {
     color: red;
 }
+
+.settingsValue {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsInput {
+    max-width: 50px;
+}
+.settingsMainSpan{
+    display: flex;
+    flex-direction: column;
+}
