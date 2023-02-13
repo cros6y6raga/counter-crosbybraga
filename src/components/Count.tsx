@@ -14,8 +14,11 @@ export const Count = (props: PropsType) => {
                 <span className={props.count === props.maxValue ? 'error' : ''}>{props.count}</span>
             </div>
             <div className='buttons'>
-                <button className='button' disabled={props.count === props.maxValue} onClick={props.onClickInc}>inc</button>
-                <button className='button' disabled={props.count === props.minValue} onClick={props.onClickReset}>reset</button>
+                <button className='button' disabled={props.count === props.maxValue} onClick={props.onClickInc}>inc
+                </button>
+                <button className='button' disabled={props.count === props.minValue}
+                        onClick={props.onClickReset}>reset
+                </button>
             </div>
         </div>
     );
