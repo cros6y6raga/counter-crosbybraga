@@ -50,9 +50,14 @@
 }
 
 .settingsButton {
-
+    border: 2px solid #2f3bad;
+    padding: 50px 156px;
+    margin: 0 auto;
 }
 
 .set {
-
+    border: none;
+    font-size: 50px;
+    background-color: #2f3bad;
+    cursor: pointer;
 }
