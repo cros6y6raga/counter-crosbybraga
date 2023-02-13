@@ -42,12 +42,17 @@
 .settingsValue {
     display: flex;
     flex-direction: column;
+    border: 2px solid #2f3bad;
 }
 
 .settingsInput {
     max-width: 50px;
 }
-.settingsMainSpan{
-    display: flex;
-    flex-direction: column;
+
+.settingsButton {
+
+}
+
+.set {
+
 }
