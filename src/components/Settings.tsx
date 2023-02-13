@@ -4,8 +4,14 @@ export const Settings = () => {
     return (
         <div className='settings'>
             <div className='settingsValue'>
-                <span>max value: <input className='settingsInput' type="number"/></span>
-                <span>start value: <input className='settingsInput' type="number"/></span>
+                <div className='max'>
+                    <span className='maxValue'>max value:</span>
+                    <input className='settingsInput' type="number"/>
+                </div>
+                <div className='start'>
+                    <span className='startValue'>start value:</span>
+                    <input className='settingsInput' type="number"/>
+                </div>
             </div>
             <div className='settingsButton'>
                 <button className='set'>set</button>
