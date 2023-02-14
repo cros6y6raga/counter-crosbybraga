@@ -1,6 +1,14 @@
 import React from 'react';
 
-export const Settings = () => {
+type PropsType = {
+    count: number
+    onClickInc: () => void
+    onClickReset: () => void
+    minValue: number
+    maxValue: number
+}
+
+export const Settings = (props: PropsType) => {
     return (
         <div className='settings'>
             <div className='settingsValue'>

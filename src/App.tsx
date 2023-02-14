@@ -26,9 +26,9 @@ function App() {
     const onClickReset = () => {
         setCount(minValue)
     }
+
     return (
         <div className='header'>
-            <Settings/>
             <Count
                 count={count}
                 minValue={minValue}
