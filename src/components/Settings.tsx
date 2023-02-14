@@ -6,6 +6,7 @@ type PropsType = {
     onClickReset: () => void
     minValue: number
     maxValue: number
+    setCount: (count: number) => void
 }
 
 export const Settings = (props: PropsType) => {
@@ -14,6 +15,9 @@ export const Settings = (props: PropsType) => {
 
     }
     const onChangeStartHandler = (e: ChangeEvent<HTMLInputElement>) => {
+
+    }
+    const onClickSetHandler = () => {
 
     }
 
@@ -30,7 +34,7 @@ export const Settings = (props: PropsType) => {
                 </div>
             </div>
             <div className='settingsButton'>
-                <button className='set'>set</button>
+                <button onClick={onClickSetHandler} className='set'>set</button>
             </div>
         </div>
     );

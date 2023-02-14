@@ -30,6 +30,7 @@ function App() {
         <div className='header'>
             <Count
                 count={count}
+                setCount={setCount}
                 minValue={minValue}
                 maxValue={maxValue}
                 onClickInc={onClickInc}
