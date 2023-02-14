@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {ChangeEvent} from 'react';
 
 type PropsType = {
     count: number
@@ -9,16 +9,24 @@ type PropsType = {
 }
 
 export const Settings = (props: PropsType) => {
+
+    const onChangeMaxHandler = (e: ChangeEvent<HTMLInputElement>) => {
+
+    }
+    const onChangeStartHandler = (e: ChangeEvent<HTMLInputElement>) => {
+
+    }
+
     return (
         <div className='settings'>
             <div className='settingsValue'>
                 <div className='max'>
                     <span className='maxValue'>max value:</span>
-                    <input className='settingsInput' type="number"/>
+                    <input onChange={onChangeMaxHandler} className={'settingsInput'} type="number"/>
                 </div>
                 <div className='start'>
                     <span className='startValue'>start value:</span>
-                    <input className='settingsInput' type="number"/>
+                    <input onChange={onChangeStartHandler} className='settingsInput' type="number"/>
                 </div>
             </div>
             <div className='settingsButton'>

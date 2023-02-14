@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import {Count} from "./components/Count";
-import {Settings} from "./components/Settings";
 
 function App() {
     const [count, setCount] = useState<number>(0)
