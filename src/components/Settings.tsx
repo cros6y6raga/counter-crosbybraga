@@ -1,4 +1,4 @@
-import React, {ChangeEvent} from 'react';
+import React, {ChangeEvent, MouseEvent} from 'react';
 
 type PropsType = {
     count: number
@@ -6,18 +6,18 @@ type PropsType = {
     onClickReset: () => void
     minValue: number
     maxValue: number
-    setCount: (count: number) => void
+    setCount: (count: (value: number) => number) => void
 }
 
 export const Settings = (props: PropsType) => {
 
     const onChangeMaxHandler = (e: ChangeEvent<HTMLInputElement>) => {
-
+        props.setCount((value: number) => value + 1)
     }
     const onChangeStartHandler = (e: ChangeEvent<HTMLInputElement>) => {
 
     }
-    const onClickSetHandler = () => {
+    const onClickSetHandler = (e: MouseEvent<HTMLButtonElement>) => {
 
     }
 

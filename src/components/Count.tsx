@@ -7,7 +7,7 @@ type PropsType = {
     onClickReset: () => void
     minValue: number
     maxValue: number
-    setCount: (count: number) => void
+    setCount: (count: (value: number) => number) => void
 }
 export const Count = (props: PropsType) => {
     return (
@@ -23,7 +23,6 @@ export const Count = (props: PropsType) => {
                             onClick={props.onClickReset}>reset
                     </button>
                 </div>
-
             </div>
             <Settings
                 count={props.count}
