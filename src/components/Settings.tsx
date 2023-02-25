@@ -15,7 +15,7 @@ export const Settings = (props: PropsType) => {
         props.setCount((value: number) => value + 1)
     }
     const onChangeStartHandler = (e: ChangeEvent<HTMLInputElement>) => {
-
+        props.setCount((value: number) => value + 1)
     }
     const onClickSetHandler = (e: MouseEvent<HTMLButtonElement>) => {
 
