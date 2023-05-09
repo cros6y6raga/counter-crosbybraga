@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/counter-crosbybraga/static/css/main.9c66b7f6.css",
+    "main.js": "/counter-crosbybraga/static/js/main.032f0067.js",
+    "static/js/787.28cb0dcd.chunk.js": "/counter-crosbybraga/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/counter-crosbybraga/index.html",
+    "main.9c66b7f6.css.map": "/counter-crosbybraga/static/css/main.9c66b7f6.css.map",
+    "main.032f0067.js.map": "/counter-crosbybraga/static/js/main.032f0067.js.map",
+    "787.28cb0dcd.chunk.js.map": "/counter-crosbybraga/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c66b7f6.css",
+    "static/js/main.032f0067.js"
+  ]
+}
